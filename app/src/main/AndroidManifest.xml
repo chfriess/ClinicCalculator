@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cliniccalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/asklepiosstab_neu"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BMI" />
+        <activity android:name=".Crb65" />
+        <activity android:name=".Anionenlücke" />
+        <activity android:name=".GFR" />
+        <activity android:name=".ArthInd" />
+        <activity android:name=".Friedewald" />
+        <activity android:name=".CaCorrected" />
+        <activity android:name=".ASI" />
+        <activity android:name=".QTtime" />
+        <activity android:name=".BISAP" />
+        <activity android:name=".Pop_Bisap"
+            android:theme="@style/AppTheme.CustomTheme"
+        ></activity>
+        <activity android:name=".Pop_HASBLED"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_ChildPugh"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Wells"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_ChadVac"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_DIG"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+
+        <activity android:name=".Pop_Apgar"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Curb"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Centor"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Anionenlücke"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_ArthInd"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Asi"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Bmi"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_CaCorr"
+        android:theme="@style/AppTheme.CustomTheme"
+        ></activity>
+        <activity android:name=".Pop_Crb65"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Friedwald"
+        android:theme="@style/AppTheme.CustomTheme"
+        ></activity>
+        <activity android:name=".Pop_Gfr"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_QT"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_Apacheii"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_GfrII"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_GfrIII"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".Pop_GfrIV"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+        <activity android:name=".HASBLED" />
+        <activity android:name=".ChildPugh" />
+        <activity android:name=".Wells" />
+        <activity android:name=".ChadVac" />
+        <activity android:name=".DIG" />
+        <activity android:name=".Apgar" />
+        <activity android:name=".Curb65" />
+        <activity android:name=".Centor" />
+        <activity android:name=".APACHEII" />
+        <activity android:name=".GFRII" />
+        <activity android:name=".GFRIII" />
+        <activity android:name=".GFRIV" />
+
+    </application>
+
+</manifest>

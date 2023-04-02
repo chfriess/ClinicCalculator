@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">ClinicCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="confusion">confusion</string>
+    <string name="age_65"><![CDATA[age > 65]]></string>
+    <string name="cervical_lymphnodes">cervical lymphnodes</string>
+    <string name="rr_sys_90_dia_60"><![CDATA[RR Sys < 90 || Dia < 60]]></string>
+    <string name="crb65_score">CRB65-Score</string>
+    <string name="a_gap">A Gap</string>
+    <string name="prediction_of_mortality">Prediction of Mortality</string>
+    <string name="in_acute_pancreatitis">in Acute Pancreatitis</string>
+    <string name="_0_1_mortality_1"><![CDATA[0-1: Mortality < 1%]]></string>
+    <string name="_2_t_t_mortality_2">2: \t\t Mortality 2%</string>
+    <string name="_3_4_mortality_5_10">3-4: Mortality 5-10%</string>
+    <string name="_5_t_t_mortality_20"><![CDATA[5: \t\t Mortality > 20%]]></string>
+    <string name="bisap">BISAP</string>
+    <string name="bisap_score">BISAP-Score</string>
+    <string name="calculate_bisap">Calculate BISAP</string>
+    <string name="age_60"><![CDATA[Age > 60]]></string>
+    <string name="impaired_mental_status">Impaired Mental Status</string>
+    <string name="plerual_effusion">Plerual Effusion</string>
+    <string name="bun_25_mg_dl"><![CDATA[BUN > 25 mg/dl]]></string>
+    <string name="_2_low_risk"><![CDATA[<2: low risk]]></string>
+    <string name="_2_high_risk"><![CDATA[>2: high risk]]></string>
+    <string name="evaluation_of">Evaluation of</string>
+    <string name="risk_of_hemorhage">Risk of Hemorhage</string>
+    <string name="_5_6_child_a_100_1_year_survival"><![CDATA[5-6: Child A -> 100% 1-year survival]]></string>
+    <string name="assessement_of_the_severity">Assessement of the severity</string>
+    <string name="of_chronic_liver_disease">of chronic liver disease</string>
+    <string name="_7_9_child_b_80_1_year_survival"><![CDATA[7-9: Child B -> 80% 1-year survival]]></string>
+    <string name="_10_15_child_c_45_1_year_survival"><![CDATA[10-15: Child C -> 45% 1-year survival]]></string>
+    <string name="_2_mg_dl"><![CDATA[<2 mg/dl]]></string>
+    <string name="_3_mg_dl"><![CDATA[>3 mg/dl]]></string>
+    <string name="_2_3_mg_dl">2-3 mg/dl</string>
+    <string name="_2_8_g_dl"><![CDATA[< 2,8 g/dl]]></string>
+    <string name="_2_8_3_5_g_dl">2,8-3,5 g/dl</string>
+    <string name="_3_5_g_dl"><![CDATA[> 3,5 g/dl]]></string>
+    <string name="_2_2_40"><![CDATA[> 2,2 (<40)]]></string>
+    <string name="_1_7_2_2_40_70">1,7-2,2 (40-70)</string>
+    <string name="_1_7_70"><![CDATA[< 1,7 (>70)]]></string>
+    <string name="level_2"><![CDATA[> level 2]]></string>
+    <string name="level_1_2">level 1-2</string>
+    <string name="inr_quick">INR/Quick</string>
+    <string name="hepatic_encephalopathy">Hepatic Encephalopathy</string>
+    <string name="albumin_serum">Albumin Serum</string>
+    <string name="ascites">Ascites</string>
+    <string name="total_bilirubin">Total Bilirubin</string>
+    <string name="_5_high_probability"><![CDATA[>= 5: high probability]]></string>
+    <string name="probability_of_lung_emboly">Probability of Lung Emboly</string>
+    <string name="_0_4_low_probability">0-4: low probability</string>
+    <string name="_6_10_risk_of_stroke">6: 10% Risk of Stroke</string>
+    <string name="_5_7_risk_of_stroke">5: 7% Risk of Stroke</string>
+    <string name="_4_4_risk_of_stroke">4: 4% Risk of Stroke</string>
+    <string name="_3_3_risk_of_stroke">3: 3% Risk of Stroke</string>
+    <string name="_2_2_risk_of_stroke">2: 2% Risk of Stroke</string>
+    <string name="_1_1_risk_of_stroke">1: 1% Risk of Stroke</string>
+    <string name="evaluates_risk_of_stroke">evaluates Risk of Stroke</string>
+    <string name="age_75"><![CDATA[Age >= 75]]></string>
+    <string name="age_65_74">Age 65-74</string>
+    <string name="_50"><![CDATA[< 50%]]></string>
+    <string name="_70_100">70-100%</string>
+    <string name="_50_70">50 - 70%</string>
+    <string name="more_than_100_mg_dl">more than 100 mg/dl</string>
+    <string name="less_than_100_mg_dl">less than 100 mg/dl</string>
+    <string name="no_increase">no increase</string>
+    <string name="medium_increase">medium increase</string>
+    <string name="strong_increase">strong increase</string>
+    <string name="_100_000_l"><![CDATA[> 100.000/µl]]></string>
+    <string name="_50_000_100_000_l">50.000-100.000/µl</string>
+    <string name="_50_000_l"><![CDATA[<50.000/µl]]></string>
+    <string name="calculate_dic">Calculate DIC</string>
+    <string name="dic_score">DIC-Score</string>
+    <string name="d_dimers">D-Dimers</string>
+    <string name="_5_manifest_dic"><![CDATA[>= 5: manifest DIC]]></string>
+    <string name="_5_no_manifest_dic"><![CDATA[< 5: no manifest DIC]]></string>
+    <string name="_6_after_5_min_risk_of_hypoxia"><![CDATA[<6 after 5 min: risk of hypoxia]]></string>
+    <string name="_4_after_1_min_risk_of_hypoxia"><![CDATA[<4 after 1 min: risk of hypoxia]]></string>
+    <string name="_7_10_normal">7-10: normal</string>
+    <string name="respiration">Respiration</string>
+    <string name="slow_irregular">slow, irregular</string>
+    <string name="no_respiration">no respiration</string>
+    <string name="good_regular">good, regular</string>
+    <string name="flaccid">flaccid</string>
+    <string name="inert_light_flexion">inert, light flexion</string>
+    <string name="active_movement">Active Movement</string>
+    <string name="no_reaction">no reaction</string>
+    <string name="grimace">Grimace</string>
+    <string name="crying">Crying</string>
+    <string name="no_pulse">no pulse</string>
+    <string name="pulse_100"><![CDATA[pulse < 100]]></string>
+    <string name="activity">Activity</string>
+    <string name="pulse_100_APGAR"><![CDATA[pulse > 100]]></string>
+    <string name="pale_blue">pale/blue</string>
+    <string name="trunc_rosy_extremities_pale_blue">trunc rosy, extremities pale/blue</string>
+    <string name="rosy">rosy</string>
+    <string name="calculate_apgar">Calculate APGAR</string>
+    <string name="pulse">Pulse</string>
+    <string name="appearance">Appearance</string>
+    <string name="apgar_score">APGAR-Score</string>
+    <string name="_3_22"><![CDATA[>3: ~22%]]></string>
+    <string name="_2_9_2">2: ~9,2%</string>
+    <string name="_0_1_1_5">0-1: ~1,5%</string>
+    <string name="urea_19mg_dl"><![CDATA[Urea > 19mg/dl]]></string>
+    <string name="af_30_min"><![CDATA[AF > 30/min]]></string>
+    <string name="by_a_streptococcus">by A-Streptococcus</string>
+    <string name="_4_50_60">4: ~50-60%</string>
+    <string name="_3_30_35">3: ~30-35%</string>
+    <string name="_2_15">2: ~15%</string>
+    <string name="_1_6_7">1: ~6-7%</string>
+    <string name="_0_2_5">0: ~2,5%</string>
+    <string name="multiple_myelom_decreased_serum_albumin">Multiple Myelom, decreased Serum Albumin</string>
+    <string name="normal_anion_gap_3_11_mmol_l">Normal Anion Gap [3-11 mmol/l]</string>
+    <string name="hco3_loss_intestinal_renal">HCO3 loss (intestinal, renal)</string>
+    <string name="addition_acidosis_uremia_lactat_acidosis_ketoacidosis">addition acidosis (Uremia, Lactat Acidosis, Ketoacidosis)</string>
+    <string name="decreased_anion_gap">Decreased Anion Gap</string>
+    <string name="increased_anion_gap">Increased Anion Gap</string>
+    <string name="_4_high_vascular_risk"><![CDATA[>4: high vascular risk]]></string>
+    <string name="_2_4_increased_vascular_risk">2-4: increased vascular risk</string>
+    <string name="_2_low_vascular_risk"><![CDATA[<2: low vascular risk]]></string>
+    <string name="the_vascular_risk_profile">the Vascular Risk Profile</string>
+    <string name="artherogenic_index_assesses">Artherogenic Index assesses</string>
+    <string name="_3_0_high_reliability_for_cerebral_ab_production"><![CDATA[>3,0: high reliability for cerebral AB production]]></string>
+    <string name="_2_0_3_0_specific_cerebral_ab_production">2,0-3,0: specific cerebral AB production</string>
+    <string name="_0_5_2_0_no_cerebral_ab_production">0,5-2,0: no cerebral AB production</string>
+    <string name="cerebral_antibody_production">Cerebral Antibody Production</string>
+    <string name="distinguishes_intra_and_extra">distinguishes intra- and extra</string>
+    <string name="antibody_specificity_index">Antibody Specificity Index</string>
+    <string name="_40_adipositas_iii"><![CDATA[>=40: Adipositas III]]></string>
+    <string name="_35_39_9_adipositas_ii">35-39,9: Adipositas II</string>
+    <string name="_30_34_9_adipositas_i">30-34,9: Adipositas I</string>
+    <string name="_25_29_9_overweight">25 - 29,9: Overweight</string>
+    <string name="_18_5_24_9_normal_weight">18,5-24,9: Normal Weight</string>
+    <string name="_17_18_4_little_underweight">17-18,4: Little Underweight</string>
+    <string name="_16_strong_underweight"><![CDATA[<16: Strong Underweight]]></string>
+    <string name="_16_16_9_medium_underweight">16-16,9: Medium Underweight</string>
+    <string name="body_mass_index">Body Mass Index</string>
+    <string name="for_hypalbuminemea">for Hypalbuminemea</string>
+    <string name="correction_of_serum_calcium">Correction of Serum Calcium</string>
+    <string name="the_probability_of_pneumonia">the probability of pneumonia</string>
+    <string name="_3_4_23">3-4: ~23%</string>
+    <string name="_1_2_6">1-2: ~6%</string>
+    <string name="_0_1"><![CDATA[0: <1%]]></string>
+    <string name="crb65_score_assesses">CRB65 Score assesses</string>
+    <string name="the_friedewald_formula_is_used">The Friedewald-Formula is used</string>
+    <string name="hdl_and_tag">HDL and TAG</string>
+    <string name="based_on_total_cholesterol">based on total cholesterol</string>
+    <string name="to_calculate_ldl_levels">to calculate LDL levels</string>
+    <string name="gfr">GFR</string>
+    <string name="anion_gap">Anion Gap</string>
+    <string name="cco3_mmol_l">cCO3 [mmol/l]</string>
+    <string name="ccl_mmol_l">cCl [mmol/l]</string>
+    <string name="calculate_anion_gap">Calculate anion gap</string>
+    <string name="ck_mmol_l">cK [mmol/l]</string>
+    <string name="cna_mmol_l">cNa [mmol/l]</string>
+    <string name="artherogenic_index">Artherogenic Index</string>
+    <string name="ldl_mg_dl">LDL [mg/dl]</string>
+    <string name="calculate_ai">Calculate AI</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="gr_e_m">Größe [m]</string>
+    <string name="gewicht_kg">Gewicht [kg]</string>
+    <string name="calculate_ca">Calculate Ca</string>
+    <string name="ca_corrected">Ca Corrected</string>
+
+    <string name="centor">CENTOR</string>
+    <string name="calculate_centor">Calculate CENTOR</string>
+    <string name="lymph_nodes">lymph nodes</string>
+    <string name="coughing">Coughing</string>
+    <string name="tonsile_swelling">tonsile swelling</string>
+    <string name="body_temperature">body temperature</string>
+    <string name="vascular_precondition">Vascular Precondition</string>
+    <string name="diabetes_mellitus">Diabetes Mellitus</string>
+    <string name="heart_failure">Heart Failure</string>
+    <string name="button">Button</string>
+    <string name="chad2ds2vasc">CHAD2DS2VASc</string>
+    <string name="much">much</string>
+    <string name="medium">medium</string>
+    <string name="none">none</string>
+    <string name="calculate_child_pugh">Calculate Child Pugh</string>
+    <string name="child_pugh_score">Child-Pugh-Score</string>
+    <string name="crb65">CRB65</string>
+    <string name="curb65">CURB65</string>
+    <string name="calculate_curb65">Calculate CURB65</string>
+    <string name="quick">Quick</string>
+    <string name="fibrinogen">Fibrinogen</string>
+    <string name="thrombocytes">Thrombocytes</string>
+    <string name="calculate_ldl">Calculate LDL</string>
+    <string name="hdl_mg_dl">HDL [mg/dl]</string>
+    <string name="tag_mg_dl">TAG [mg/dl]</string>
+    <string name="cholesterol_mg_dl">cholesterol [mg/dl]</string>
+    <string name="friedwald_formula">Friedwald Formula</string>
+    <string name="female">Female</string>
+    <string name="age_years">age [years]</string>
+    <string name="weight_kg">weight [kg]</string>
+    <string name="serum_creatinin_mmol_l">serum creatinin [mmol/l]</string>
+    <string name="male">Male</string>
+    <string name="caculate_gfr">caculate GFR</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="drugs">Drugs</string>
+    <string name="age">Age</string>
+    <string name="labile_inr">Labile INR</string>
+    <string name="bleeder">Bleeder</string>
+    <string name="sirs">SIRS</string>
+    <string name="stroke">Stroke</string>
+    <string name="renal_function">Renal Function</string>
+    <string name="hypertonus">Hypertonus</string>
+    <string name="calculate_hasbled">Calculate Hasbled</string>
+    <string name="hasbled_score">HASBLED-SCORE</string>
+    <string name="heart_rate_1_s">Heart Rate [1/s]</string>
+    <string name="qt_time_ms">QT Time [ms]</string>
+    <string name="calculate_qt">Calculate QT</string>
+    <string name="qt_time_corrected">QT-time corrected</string>
+    <string name="dvt">DVT</string>
+    <string name="hemoptysis">Hemoptysis</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="lung_emboly">Lung Emboly</string>
+    <string name="malignom">Malignom</string>
+    <string name="immobilization">Immobilization</string>
+    <string name="calculate_wells">Calculate Wells</string>
+    <string name="wells_score">Wells-Score</string>
+    <string name="normal_3_11_mmol_l">Normal [3-11 mmol/l]</string>
+
+    <string-array name="temperature_rectal">
+        <item>>=41°</item>
+        <item>39-40,9°</item>
+        <item>38,5-38,9°</item>
+        <item>36-38,4°</item>
+        <item>34-35,9°</item>
+        <item>32-33.9°</item>
+        <item>30-31,9°</item>
+        <item>less than 30°</item>
+    </string-array>
+
+    <string-array name="heart_rate">
+        <item>>=180</item>
+        <item>140-179</item>
+        <item>110-139</item>
+        <item>70-109</item>
+        <item>55-69</item>
+        <item>40-54</item>
+        <item>less than 39</item>
+    </string-array>
+
+    <string-array name="arterial_mp">
+        <item>>=160</item>
+        <item>130-159</item>
+        <item>110-129</item>
+        <item>70-109</item>
+        <item>50-69</item>
+        <item>less than 50</item>
+    </string-array>
+
+    <string-array name="respiratory_frequency_apache">
+        <item>>=50</item>
+        <item>35-49</item>
+        <item>25-34</item>
+        <item>12-24</item>
+        <item>10-11</item>
+        <item>6-9</item>
+        <item>less than 6</item>
+    </string-array>
+
+    <string-array name="oxygenation">
+        <item>>=500</item>
+        <item>350-499</item>
+        <item>250-349</item>
+        <item>70-200</item>
+        <item>61-70</item>
+        <item>55-60</item>
+        <item>less than 55</item>
+    </string-array>
+
+    <string-array name="pH">
+        <item>>=7,7</item>
+        <item>7,60-7,69</item>
+        <item>7,50-7,59</item>
+        <item>7,33-7,49</item>
+        <item>7,25-7,32</item>
+        <item>7,15-7,24</item>
+        <item>less than 7,15</item>
+    </string-array>
+
+    <string-array name="Na">
+        <item>>=180</item>
+        <item>160-179</item>
+        <item>155-159</item>
+        <item>130-149</item>
+        <item>120-129</item>
+        <item>111-119</item>
+        <item>less than 110</item>
+    </string-array>
+
+    <string-array name="K">
+        <item>>=7,0</item>
+        <item>6,0-6,9</item>
+        <item>5,5-5,9</item>
+        <item>3,5-5,4</item>
+        <item>3,0-3,4</item>
+        <item>2,5-2,9</item>
+        <item>less than 2,4</item>
+    </string-array>
+
+    <string-array name="Kreatinin">
+        <item>>=3,5</item>
+        <item>2,0-3,4</item>
+        <item>1,5-1,9</item>
+        <item>0,6-1,4</item>
+        <item>less than 0,6</item>
+    </string-array>
+
+    <string-array name="Hematocrit">
+        <item>>=60</item>
+        <item>50,0-50,9</item>
+        <item>46,0-49,9</item>
+        <item>30,0-45,9</item>
+        <item>20,0-29,9</item>
+        <item>less than 20</item>
+    </string-array>
+
+    <string-array name="Leucocytes">
+        <item>>=40</item>
+        <item>20,0-39,9</item>
+        <item>15,0-19,9</item>
+        <item>3,0-14,9</item>
+        <item>1-2,9</item>
+        <item>less than 1</item>
+    </string-array>
+
+    <string-array name="GCS">
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Age">
+        <item>>=75</item>
+        <item>65-74</item>
+        <item>55-64</item>
+        <item>45-54</item>
+        <item>less than 45</item>
+    </string-array>
+
+
+    <string-array name="Aufnahmegrund">
+        <item>115</item>
+        <item>114</item>
+        <item>113</item>
+        <item>112</item>
+        <item>111</item>
+        <item>110</item>
+        <item>91</item>
+        <item>81</item>
+        <item>71</item>
+        <item>61</item>
+        <item>51</item>
+        <item>41</item>
+        <item>31</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cystatin_c_mg_l">cystatin c [mg/l]</string>
+    <string name="if_gfr_60_ml_min"><![CDATA[if GFR < 60 ml/min]]></string>
+    <string name="better_for_age_70"><![CDATA[Better for age >70]]></string>
+
+
+</resources>
